@@ -62,8 +62,6 @@ const loadFoodDetails = async (idFood) => {
 };
 
 const displayFoodDetail = (idFood) => {
-  console.log(idFood);
-
   const detailContainer = document.getElementById("food-detail");
 
   detailContainer.textContent = "";
